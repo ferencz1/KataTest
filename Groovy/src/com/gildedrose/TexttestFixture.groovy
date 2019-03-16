@@ -11,14 +11,14 @@ Item[] items = [
         new Item("Sulfuras, Hand of Ragnaros", -1, 80),
         new Item("Backstage passes to a TAFKAL80ETC concert", 13, 20),
         new Item("Backstage passes to a TAFKAL80ETC concert", 10, 47),
-        new Item("Backstage passes to a TAFKAL80ETC concert", 5, 46),
+        new Item("Backstage passes to a TAFKAL80ETC concert", 3, 46),
         // this conjured item does not work properly yet
         new Item("Conjured Brie", 2, 10),
         new Item("Conjured Mana Cake", 3, 3)] as Item[]
 
 GildedRose app = new GildedRose(items)
 
-int days = 5
+int days = 6
 if (args.length > 0) {
     days = Integer.parseInt(args[0]) + 1
 }

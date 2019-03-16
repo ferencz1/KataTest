@@ -9,7 +9,7 @@ Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 13, 20
 Backstage passes to a TAFKAL80ETC concert, 10, 47
-Backstage passes to a TAFKAL80ETC concert, 5, 46
+Backstage passes to a TAFKAL80ETC concert, 3, 46
 Conjured Brie, 2, 10
 Conjured Mana Cake, 3, 3
 
@@ -23,7 +23,7 @@ Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 12, 21
 Backstage passes to a TAFKAL80ETC concert, 9, 49
-Backstage passes to a TAFKAL80ETC concert, 4, 49
+Backstage passes to a TAFKAL80ETC concert, 2, 49
 Conjured Brie, 1, 8
 Conjured Mana Cake, 2, 1
 
@@ -37,7 +37,7 @@ Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 11, 22
 Backstage passes to a TAFKAL80ETC concert, 8, 50
-Backstage passes to a TAFKAL80ETC concert, 3, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
 Conjured Brie, 0, 6
 Conjured Mana Cake, 1, 0
 
@@ -51,7 +51,7 @@ Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 10, 23
 Backstage passes to a TAFKAL80ETC concert, 7, 50
-Backstage passes to a TAFKAL80ETC concert, 2, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
 Conjured Brie, -1, 4
 Conjured Mana Cake, 0, 0
 
@@ -65,7 +65,21 @@ Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 9, 25
 Backstage passes to a TAFKAL80ETC concert, 6, 50
-Backstage passes to a TAFKAL80ETC concert, 1, 50
+Backstage passes to a TAFKAL80ETC concert, -1, 0
 Conjured Brie, -2, 0
 Conjured Mana Cake, -1, 0
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, -3, 48
+Aged Brie, -3, 5
+Aged Brie, -3, 50
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 27
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Conjured Brie, -3, 0
+Conjured Mana Cake, -2, 0
 

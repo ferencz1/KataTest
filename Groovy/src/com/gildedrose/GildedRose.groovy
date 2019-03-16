@@ -22,27 +22,32 @@ class GildedRose {
                 }
             }
             else {
-                if (items[i].quality < max_qual) {
-                    /**
-                     * increase quality for "backstage" and "others"
-                    */
-                    items[i].quality = items[i].quality + 1
+                if (name.contains("backstage passes") && items[i].sellIn <= 0) {
+                    items[i].quality = 0
+                }
+                else {
+                    if (items[i].quality < max_qual) {
+                        /**
+                         * increase quality for "backstage" and "others"
+                         */
+                        items[i].quality = items[i].quality + 1
 
-                    if (name.contains("backstage passes")) {
-                        /**
-                         * increase "backstage" for tickets in 10 days
-                         */
-                        if (items[i].sellIn < 11) {
-                            if (items[i].quality < max_qual) {
-                                items[i].quality = items[i].quality + 1
+                        if (name.contains("backstage passes")) {
+                            /**
+                             * increase "backstage" for tickets in 10 days
+                             */
+                            if (items[i].sellIn < 11) {
+                                if (items[i].quality < max_qual) {
+                                    items[i].quality = items[i].quality + 1
+                                }
                             }
-                        }
-                        /**
-                         * increase "backstage" for tickets in 5 days
-                         */
-                        if (items[i].sellIn < 6) {
-                            if (items[i].quality < max_qual) {
-                                items[i].quality = items[i].quality + 1
+                            /**
+                             * increase "backstage" for tickets in 5 days
+                             */
+                            if (items[i].sellIn < 6) {
+                                if (items[i].quality < max_qual) {
+                                    items[i].quality = items[i].quality + 1
+                                }
                             }
                         }
                     }
