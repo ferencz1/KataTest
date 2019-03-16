@@ -16,7 +16,7 @@ Item[] items = [
 
 GildedRose app = new GildedRose(items)
 
-int days = 2
+int days = 3
 if (args.length > 0) {
     days = Integer.parseInt(args[0]) + 1
 }
