@@ -28,7 +28,7 @@ class GildedRose {
                 else {
                     if (items[i].quality < max_qual) {
                         /**
-                         * increase quality for "backstage" and "others"
+                         * increase quality for "backstage" and "aged brie"
                          */
                         items[i].quality = items[i].quality + 1
 
