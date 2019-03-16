@@ -11,8 +11,9 @@ class GildedRoseTest {
         ] as Item[]
         def app = new GildedRose(items)
         app.updateQuality()
-        //assert "fixme" == app.items[0].name
-        println "printout is ${app.items}"
+        assert 5 == app.items[0].quality
+        assert 2 == app.items[0].sellIn
+        assert 31 == app.items[1].quality
     }
 
 }
